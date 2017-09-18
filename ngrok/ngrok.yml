@@ -1,0 +1,14 @@
+authtoken: 74BxEpBj8WsoGAZCcmQ2w_7mdXGBj8N5oyZVfaWfwem
+tunnels:
+  test-basic:
+    proto: http
+    addr: 80
+  test-auth:
+    proto: http
+    addr: 80
+    auth: "demo:secret"
+  test-subdomain:
+    proto: http
+    addr: 80
+    subdomain: coding-berlin
+#    auth: "demo:secret"
